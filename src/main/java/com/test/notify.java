@@ -1,8 +1,14 @@
 package com.test;
 
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.concurrent.ConcurrentHashMap;
+
 public class notify {
 
     private static final String syncObj = "";
+
+    ConcurrentHashMap<String,String> kk = new ConcurrentHashMap<String,String>();
 
     public static void main(String args[]){
         System.out.println("sdf");
