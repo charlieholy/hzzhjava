@@ -1,0 +1,16 @@
+/src/com/charge/cs/dao/mapper/TbChargeRecordMapper.java.1
+/src/com/charge/cs/dao/mapper/TbChargeRecordMapper.xml
+/src/com/charge/cs/dao/model/TbChargeRecord.java
+/src/com/charge/cs/dao/model/TbChargeRecord.java.1
+/src/com/charge/cs/dao/model/TbChargeRecordExample.java
+/src/com/charge/cs/dao/model/TbChargeRecordExample.java.1
+/target/classes/com/*.class
+/target/classes/com/com/dubbo/*.class
+/target/classes/com/com/jedis/*.class
+/target/classes/com/lock/*.class
+/target/classes/com/test/*.class
+/target/classes/com/unitT/*.class
+/target/classes/com/zk/*.class
+/target/classes/*.properties
+/target/classes/*.xml
+/target/maven-status/maven-compiler-plugin/compile/default-compile/*.lst
