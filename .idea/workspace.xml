@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc92942-e039-4e25-b8a4-f478553884ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lock/SpinLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lock/TicketLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/tools.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/tools.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/zk/Z.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jvmtool/Arguments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jvmtool/Arguments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jvmtool/Jps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jvmtool/Jps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/oo/K.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/oo/K.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/notify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/notify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,22 +77,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="3" />
+          <entry key="java" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="165" />
+          <entry key="java" value="358" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="165" />
+          <entry key="JAVA" value="358" />
         </counts>
       </usages-collector>
     </session>
@@ -111,19 +115,28 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/test/notify.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lock/SpinLock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+              <folding>
+                <element signature="e#162#171#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lock/SpinLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lock/TicketLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding>
-                <element signature="e#162#171#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -181,6 +194,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/test2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/test/notify.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lock/SpinLock.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lock/TicketLock.java" />
       </list>
     </option>
   </component>
@@ -223,7 +237,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+    <option name="x" value="-24" />
+    <option name="y" value="433" />
     <option name="width" value="1440" />
     <option name="height" value="843" />
   </component>
@@ -287,7 +302,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538403963948" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538445988918" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../demo/dubbo-demo/dubbo-provider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -431,15 +446,15 @@
       <workItem from="1537167149698" duration="6192000" />
       <workItem from="1537234486259" duration="1753000" />
       <workItem from="1537431538832" duration="11808000" />
-      <workItem from="1538403079353" duration="781000" />
+      <workItem from="1538403079353" duration="1667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27758000" />
+    <option name="totallyTimeSpent" value="28644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="843" extended-state="6" />
+    <frame x="-24" y="433" width="1440" height="843" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.785558" visible="true" weight="0.29828325" />
@@ -502,7 +517,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/test/notify.java</url>
-          <line>35</line>
+          <line>41</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
@@ -723,7 +738,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/test/notify.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -736,11 +751,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lock/SpinLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="285">
+          <caret line="15" column="49" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
           <folding>
             <element signature="e#162#171#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lock/TicketLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
         </state>
       </provider>
     </entry>
