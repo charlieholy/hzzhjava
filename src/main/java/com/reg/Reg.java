@@ -39,6 +39,7 @@ public class Reg {
         if(Reg.regNormal.cpsr == 1 && Reg.regNormal.pc == 100){
             Reg.regNormal.cpsr = Reg.regFiq.spsr;
             Reg.regNormal.pc = Reg.regFiq.lr;
+            System.out.println("irq");
             //System.out.println("normal: " + regNormal.toString());
         }
 
