@@ -4,6 +4,7 @@
 /src/com/charge/cs/dao/model/TbChargeRecord.java.1
 /src/com/charge/cs/dao/model/TbChargeRecordExample.java
 /src/com/charge/cs/dao/model/TbChargeRecordExample.java.1
+/target
 /target/classes/com/*.class
 /target/classes/com/com/dubbo/*.class
 /target/classes/com/com/jedis/*.class

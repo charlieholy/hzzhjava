@@ -29,7 +29,7 @@ public class Reg {
             Reg.regFiq.spsr = Reg.regNormal.cpsr;
             Reg.regFiq.lr = Reg.regNormal.pc;
 
-            System.out.println("irq: " + regFiq.toString());
+            //System.out.println("irq: " + regFiq.toString());
 
             Reg.regNormal.cpsr = 1;
             Reg.regNormal.pc = 100;
@@ -39,11 +39,17 @@ public class Reg {
         if(Reg.regNormal.cpsr == 1 && Reg.regNormal.pc == 100){
             Reg.regNormal.cpsr = Reg.regFiq.spsr;
             Reg.regNormal.pc = Reg.regFiq.lr;
-            System.out.println("normal: " + regNormal.toString());
+            //System.out.println("normal: " + regNormal.toString());
         }
 
 
         //System.out.println("regNo: " + regNormal.toString());
+    }
+
+    public static synchronized void pc(){
+        if(Reg.regNormal.cpsr == 0){
+            System.out.println("pc " + Reg.regNormal.pc++);
+        }
     }
 
 
@@ -55,9 +61,7 @@ public class Reg {
         new Thread(new Runnable() {
             public void run() {
                 while (true){
-                if(Reg.regNormal.cpsr == 0){
-                System.out.println("pc " + Reg.regNormal.pc++);}
-
+                    pc();
                 try{Thread.sleep(1000);}catch (Exception e){}
             }}
         }).start();
